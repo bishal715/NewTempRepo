@@ -11,3 +11,5 @@ git reset . #undo the add operation
 git reset HEAD~1 #get back to the previous commit
 git reset <commit's hash>
 git reset --hard <commit's hash removing the changes after this commit live in the code>
+git merge <branch name> #merge two branches
+git diff <branch name> #shows the differences between two branches
